@@ -43,7 +43,7 @@ def sample(preds, temperature=1.0):
 
 
 with open(WRITE_PATH, "w") as queue:
-    for n in range(1000):
+    for n in range(1100):
         # random start index
         start_index = random.randint(0, len(text) - maxlen - 1)
 
